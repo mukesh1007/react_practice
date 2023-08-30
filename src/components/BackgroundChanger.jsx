@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 const BackgroundChanger = () => {
-  const [color, setColor] = useState("orange");
+  const [color, setColor] = useState("bg-slate-800");
   return (
     <div
       style={{ backgroundColor: color }}
-      className="w-full h-screen duration-200"
+      className="w-full h-screen duration-200 "
     >
       <div className="fixed bottom-12 flex justify-center inset-x-0">
         <div className="bg-white flex flex-wrap justify-center p-2 px-4 rounded-2xl">

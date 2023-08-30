@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         primary: '#3490dc',
         secondary: '#f39c12',
+        navcoler:'#000d1a',
       },
       fontFamily: {
         sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
