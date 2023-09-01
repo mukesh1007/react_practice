@@ -7,6 +7,7 @@ import ImageCarousel from "./components/ImageCarousel";
 import Navbar from "./components/Navbar";
 import QuoteGenerator from "./components/QuoteGenerator";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PasswordGenrator from "./components/PasswordGenrator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/background" element={<BackgroundChanger />} />
         <Route path="/image" element={<ImageCarousel />} />
         <Route path="/quote" element={<QuoteGenerator />} />
+        <Route path="/password" element={<PasswordGenrator />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -13,7 +13,7 @@ const ImageCarousel = () => {
   const [current, setCurrent] = useState(0);
   return (
     <div>
-      <h1 className="text-3xl text-center my-6 text-slate-100">Image section</h1>
+      <h1 className="text-4xl py-4 text-emerald-600 text-center">Image section</h1>
       <div className="flex flex-wrap justify-center">
         <div className="flex justify-center">
           <button

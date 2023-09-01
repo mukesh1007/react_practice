@@ -17,6 +17,9 @@ const Navbar = () => {
         <li className="px-4 hover:text-teal-500">
           <Link to="/quote">Quote Generator</Link>
         </li>
+        <li className="px-4 hover:text-teal-500">
+          <Link to="/password">Password Genrator</Link>
+        </li>
       </ul>
     </div>
   );

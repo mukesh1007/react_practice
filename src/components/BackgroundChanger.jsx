@@ -6,6 +6,10 @@ const BackgroundChanger = () => {
       style={{ backgroundColor: color }}
       className="w-full h-screen duration-200 "
     >
+      <h1 className="text-4xl py-4 text-emerald-600 text-center">
+        Background Changer
+      </h1>
+
       <div className="fixed bottom-12 flex justify-center inset-x-0">
         <div className="bg-white flex flex-wrap justify-center p-2 px-4 rounded-2xl">
           <button

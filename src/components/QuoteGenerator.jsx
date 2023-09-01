@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 
 const QuoteGenerator = () => {
   const [posts, setPosts] = useState([]);
@@ -13,14 +12,13 @@ const QuoteGenerator = () => {
         setQuote(json[0]);
       });
   }, []);
-  console.log("quote: ", quote);
   const handleNewQuote=()=>{
     const i=Math.floor(Math.random()*posts.length);
     setQuote(posts[i])
   }
   return (
     <div>
-      <h1 className="text-3xl my-4 text-center text-slate-100">
+      <h1 className="text-4xl py-4 text-emerald-600 text-center">
         Quote Genrator
       </h1>
       <div className="flex justify-center mt-8">
